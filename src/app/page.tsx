@@ -4,19 +4,19 @@ import SaveTheDate, { Event_SaveTheDate } from "@/components/invitacion/save-the
 import { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Save The Date",
-  description: "Guarda la fecha de nuestro evento",
+  description: "Estas invitado a ser parte.",
   openGraph: {
     title: "Save The Date",
-  description: "Guarda la fecha de nuestro evento",
-    url: "https://castellanoph.com/invitacion/taniayrodrigo",
+    description: "Estas invitado a ser parte.",
+    url: "https://www.constanzabruno.com/",
     siteName: "Invitacion cena fin de año",
-    images: [{ url: "/portada.jpg", width: 1200, height: 630 }],
+    images: [{ url: "/banner.jpg", width: 1200, height: 630 }],
   },
   twitter: {
     title: "Save The Date",
-    description: "Guarda la fecha de nuestro evento",
+    description: "Estas invitado a ser parte.",
     card: "summary_large_image",
-    images: [{ url: "/portada.jpg", width: 1200, height: 630 }],
+    images: [{ url: "/banner.jpg", width: 1200, height: 630 }],
   },
 };
 export default function SaveTheDatePage() {
