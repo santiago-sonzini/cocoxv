@@ -25,7 +25,7 @@ export default function SaveTheDatePage() {
       desktop: "https://wnziihzxwhwxfwxkkulo.supabase.co/storage/v1/object/public/eventos/coco/PORTADA%20COCO%20II.mp4",
       mobile: "https://wnziihzxwhwxfwxkkulo.supabase.co/storage/v1/object/public/eventos/coco/PORTADA%20VERTICAL%20COCO.mp4",
     },
-    targetDate: "2026-11-01T24:00:00.000Z",
+    targetDate: "2026-11-21T24:00:00.000Z",
     countdown_title: "Pronto más información",
     
   };

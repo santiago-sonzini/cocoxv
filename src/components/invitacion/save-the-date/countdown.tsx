@@ -6,7 +6,7 @@ import React, { useState, useEffect } from "react";
 /* ---------------------------------- */
 /* Utils                               */
 /* ---------------------------------- */
-const formatDateTime = (dateString: string) => {
+const formatDateTime = (dateString: string , showTime = false) => {
   const date = new Date(dateString);
 
   const day = String(date.getDate()).padStart(2, "0");
@@ -16,7 +16,7 @@ const formatDateTime = (dateString: string) => {
   const hours = String(date.getHours()).padStart(2, "0");
   const minutes = String(date.getMinutes()).padStart(2, "0");
 
-  return `${day}/${month}/${year} · ${hours}:${minutes}`;
+  return `${day}/${month}/${year} ${showTime ? ` · ${hours}:${minutes}` : ""}`;
 };
 
 /* ---------------------------------- */
